@@ -1,0 +1,11 @@
+function verificaAutoEscola(idade) {
+    if (idade >= 18) {
+        console.log("Pode entrar na auto escola")
+    } else {
+        console.log("Não pode entrar na auto escola")
+    }
+}
+
+console.log(verificaAutoEscola(18));
+console.log(verificaAutoEscola(30));
+console.log(verificaAutoEscola(16));
